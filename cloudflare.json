@@ -1,0 +1,43 @@
+{
+    "name": "FeedbackFlap",
+    "description": "Adds an unobtrusive feedback flap to your website",
+    "version": "0.1.0",
+    "category": "support",
+    "contributors": [
+       {
+           "name": "Madhur Jain",
+           "email": "mformadhur@gmail.com"
+       }
+   ],
+   "repository": {
+        "type": "git",
+        "url": "https://github.com/FeedbackFlap/CF-FeedbackFlap.git"
+    },
+    "main": "public/javascripts/app_module.js",
+    "config":{
+        "details":{
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "None",
+            "has_js": true
+        },
+        "assets":{
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            },
+            "detail_page" : [
+                "./public/images/example.png"
+            ]
+        },
+        "interface": [
+            {
+                "type": "string",
+                "id": "token",
+                "name": "Feedback Flap Token Id",
+                "required": "true",
+                "description": "Your Flap Token Id"
+            }
+        ]
+    }
+}
