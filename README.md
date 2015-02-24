@@ -1,6 +1,6 @@
 ## FeedbackFlap - CloudFlare App
 
-![Feedback Flap Logo](public/images/logo-200.png?raw=true "Feedback Flap Logo")
+![Feedback Flap Logo](public/images/feedbackflap-200.png?raw=true "Feedback Flap Logo")
 
 CloudFlare App to integrate Feedback Flap on your website
 
