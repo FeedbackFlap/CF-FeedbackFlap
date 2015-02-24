@@ -1,8 +1,9 @@
 {
     "name": "FeedbackFlap",
     "description": "Adds an unobtrusive feedback flap to your website",
-    "version": "0.1.0",
     "category": "support",
+    "version": "0.2",
+    "main": "./public/javascripts/feedbackflap.js",
     "contributors": [
        {
            "name": "Madhur Jain",
@@ -13,18 +14,16 @@
         "type": "git",
         "url": "https://github.com/FeedbackFlap/CF-FeedbackFlap.git"
     },
-    "main": "public/javascripts/app_module.js",
     "config":{
         "details":{
             "Language": "English",
             "Price": "Free",
-            "Restrictions": "None",
-            "has_js": true
+            "Restrictions": "None"
         },
         "assets":{
             "logos" : {
-                "200px": "./public/images/logo-200.png",
-                "132px": "./public/images/logo-132.png"
+                "200px": "./public/images/feedbackflap-200.png",
+                "132px": "./public/images/feedbackflap-132.png"
             },
             "detail_page" : [
                 "./public/images/example.png"
